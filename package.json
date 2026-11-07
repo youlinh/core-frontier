@@ -1,0 +1,14 @@
+{
+  "name": "core-frontier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "核心防线 · 合成战场：可本地运行的三维合成射击游戏",
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {"three": "0.180.0"}
+}
